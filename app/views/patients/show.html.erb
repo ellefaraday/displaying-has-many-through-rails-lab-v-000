@@ -1,0 +1,6 @@
+<h1><%=@patient.name%></h1>
+Appointments:
+<ul><%@patient.appointments.each do |appt|%>
+  <li><%=appt.appointment_datetime%></li>
+  <%end%></ul>
+January 11, 2016 at 20:20
