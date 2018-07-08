@@ -1,2 +1,2 @@
-class doctorsController < ApplicationController
+class DoctorsController < ApplicationController
 end
